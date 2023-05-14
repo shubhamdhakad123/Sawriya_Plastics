@@ -18,4 +18,8 @@ class User extends  BaseController
         echo view('sidebar');
         return view('users/add_user_view');
     }
+
+    public function addUserFormData(){
+        
+    }
 }
